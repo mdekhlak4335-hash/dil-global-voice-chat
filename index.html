@@ -1,1 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Dil Global Voice Chat</title>
+</head>
+<body style="text-align:center;font-family:sans-serif;">
 
+<h2>💙 Dil Global Voice Chat</h2>
+
+<input id="name" placeholder="Enter Name"><br><br>
+<button onclick="join()">Join</button>
+
+<div id="chat"></div>
+
+<script>
+function join(){
+  let name = document.getElementById("name").value;
+  document.getElementById("chat").innerHTML =
+  "Welcome " + name;
+}
+</script>
+
+</body>
+</html>
